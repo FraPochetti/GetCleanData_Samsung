@@ -33,52 +33,52 @@ These signals were used to estimate variables of the feature vector for each pat
 1. tBodyAcc-XYZ (3 signals X, Y, Z)
 
 
-* tGravityAcc-XYZ (3 signals X, Y, Z)
+2. tGravityAcc-XYZ (3 signals X, Y, Z)
 
 
-* tBodyAccJerk-XYZ (3 signals X, Y, Z)
+3. tBodyAccJerk-XYZ (3 signals X, Y, Z)
 
 
-* tBodyGyro-XYZ (3 signals X, Y, Z)
+4. tBodyGyro-XYZ (3 signals X, Y, Z)
 
 
-* tBodyGyroJerk-XYZ (3 signals X, Y, Z)
+5. tBodyGyroJerk-XYZ (3 signals X, Y, Z)
 
 
-* fBodyAcc-XYZ (3 signals X, Y, Z)
+6. fBodyAcc-XYZ (3 signals X, Y, Z)
 
 
-* fBodyAccJerk-XYZ (3 signals X, Y, Z)
+7. fBodyAccJerk-XYZ (3 signals X, Y, Z)
 
 
-* fBodyGyro-XYZ (3 signals X, Y, Z)
+8. fBodyGyro-XYZ (3 signals X, Y, Z)
 
 
-* tBodyAccMag 
+9. tBodyAccMag 
 
 
-* tGravityAccMag
+10. tGravityAccMag
 
 
-* tBodyAccJerkMag
+11. tBodyAccJerkMag
 
 
-* tBodyGyroMag
+12. tBodyGyroMag
 
 
-* tBodyGyroJerkMag
+13. tBodyGyroJerkMag
 
 
-* fBodyAccMag
+14. fBodyAccMag
 
 
-* fBodyAccJerkMag
+15. fBodyAccJerkMag
 
 
-* fBodyGyroMag
+16. fBodyGyroMag
 
 
-* fBodyGyroJerkMag
+17. fBodyGyroJerkMag
 
 Several variables were measured from the above signals, leading to a total of 561 features. In particular the focus of this study was mainly on the **mean** and the **standard devation** of the single collected series of signals, meaning that the tidy data set which is provided, is the result of an accurate subsetting of the original one.
 
